@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+}
+
+.inputs {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button {
+    display: block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    width: 45%; /* Reduce el tamaño de las tablas */
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+td[contenteditable="true"] {
+    background-color: #fafafa;
+}
+
+.highlight {
+    background-color: #d3d3d3;
+}
+
+#balanceStatus {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
